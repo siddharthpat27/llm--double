@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chinese Restaurant</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background-image: linear-gradient(to right, #ff9a9e, #fad0c4); }
+        .header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .header nav a { margin: 0 15px; text-decoration: none; color: #333; }
+        .main { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
+        .restaurant { margin: 20px; text-align: center; }
+        .restaurant img { width: 200px; height: 200px; border-radius: 50%; }
+        .footer { text-align: center; padding: 20px; background-color: #fff; box-shadow: 0 -2px 4px rgba(0,0,0,0.1); }
+        .form-container { padding: 20px; }
+        input, textarea { width: calc(100% - 22px); padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Chinese Restaurant</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="restaurant">
+            <img src="your-image-link.jpg" alt="Recipe">
+            <h3>Recipe Name</h3>
+            <p>Description of the recipe with more specified details.</p>
+        </div>
+        <!-- Add more .restaurant divs for each recipe -->
+    </div>
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="footer">
+        &copy; 2023 Chinese Restaurant
+    </div>
+</body>
+</html>
